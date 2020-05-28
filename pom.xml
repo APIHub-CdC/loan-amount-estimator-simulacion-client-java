@@ -4,7 +4,7 @@
     <groupId>io.lae</groupId>
     <artifactId>lae-java-client</artifactId>
     <packaging>jar</packaging>
-    <name>loan-amount-estimator-sandbox-client</name>
+    <name>loan-amount-estimator-simulacion-client-java</name>
     <version>1.0.0</version>
     <licenses>
         <license>
