@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.lae</groupId>
-    <artifactId>lae-java-client</artifactId>
+    <artifactId>loan-amount-estimator-simulacion-client-java</artifactId>
     <packaging>jar</packaging>
     <name>loan-amount-estimator-simulacion-client-java</name>
     <version>1.0.0</version>
