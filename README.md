@@ -56,35 +56,6 @@ En el archivo **LoanAmountEstimatorSimulacionApiTest**, que se encuentra en ***s
 
 ```java
 @Test
-public void getLAEByPersonTest() throws ApiException {
-	PeticionPersona request = new PeticionPersona();
-	Persona persona = new Persona();
-	DomicilioPeticion domicilio = new DomicilioPeticion();
-	
-	persona.setPrimerNombre("JUAN");
-	persona.setApellidoPaterno("PRUEBA");
-	persona.setApellidoMaterno("CUATRO");
-	persona.setFechaNacimiento("1980-01-04");
-	persona.setRFC("PUAC800104");
-	
-	domicilio.setDireccion("INSURGENTES SUR 1004");
-	domicilio.setColoniaPoblacion("INSURGENTES SUR");
-	domicilio.setDelegacionMunicipio("CIUDAD DE MEXICO");
-	domicilio.setCiudad("CIUDAD DE MEXICO");
-	domicilio.setEstado(CatalogoEstados.CDMX);
-	domicilio.setCP("11230");
-	
-	persona.setDomicilio(domicilio);
-	
-	request.setFolioOtorgante("1");
-	request.setSegmento(CatalogoSegmento.PP);
-	request.setPersona(persona);
-	
-	Respuesta response = api.getLAEByPerson(this.xApiKey, request);
-	logger.info(response.toString());
-}
-
-@Test
 public void getLAEByFolioConsultaTest() throws ApiException {
 	PeticionFolioConsulta request = new PeticionFolioConsulta();
 	
